@@ -15,6 +15,13 @@ def reverse_number(number:int) -> int:
 			out += j
 	print(out)
 
+	#----- like this also----------
+	rev_num_str = "".join(num_lst)
+	return int(rev_num_str)
+
+
+	#------------------------------
+
 reverse_number(int(input()))
 
 
